@@ -1,0 +1,12 @@
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+
+.terraform
+
+*.key
+
+*.zip
+
+node_modules
+coverage
