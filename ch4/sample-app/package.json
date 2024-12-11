@@ -11,6 +11,7 @@
   "license": "ISC",
   "description": "Sample app for 'Fundamentals of DevOps and Software Delivery'",
   "dependencies": {
+    "ejs": "^3.1.10",
     "express": "^4.21.1"
   },
   "devDependencies": {
