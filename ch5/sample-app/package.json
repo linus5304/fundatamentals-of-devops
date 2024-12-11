@@ -1,0 +1,21 @@
+{
+  "name": "sample-app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "start": "node server.js",
+    "dockerize": "./build-docker-image.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "Sample app for 'Fundamentals of DevOps and Software Delivery'",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
